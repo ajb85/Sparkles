@@ -1,0 +1,27 @@
+#gameSpace {
+  table-layout: fixed;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  margin-left: -427px;
+  margin-top: -427px;
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+#gameSpace td {
+  padding: 0px;
+  border: 0px;
+}
+#gameSpace .black {
+  background-color: black;
+}
+
+#gameSpace .white {
+  background-color: white;
+}
+
+body {
+  background: grey;
+}
